@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		305B6631231DF74B00EC3D11 /* zetong-li-7pUHeP1GRC4-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 305B6630231DF74A00EC3D11 /* zetong-li-7pUHeP1GRC4-unsplash.jpg */; };
+		305B6635231E002200EC3D11 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 305B6634231E002100EC3D11 /* AppIcon.appiconset */; };
 		30B485802317412C00C7AA0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4857F2317412C00C7AA0B /* AppDelegate.swift */; };
 		30B485822317412C00C7AA0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B485812317412C00C7AA0B /* ViewController.swift */; };
 		30B485872317412D00C7AA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B485862317412D00C7AA0B /* Assets.xcassets */; };
 		30B4858A2317412D00C7AA0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B485882317412D00C7AA0B /* LaunchScreen.storyboard */; };
 		30B48591231741A900C7AA0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B485832317412C00C7AA0B /* Main.storyboard */; };
+		30B4859323174F8700C7AA0B /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4859223174F8700C7AA0B /* Stopwatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		305B6630231DF74A00EC3D11 /* zetong-li-7pUHeP1GRC4-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "zetong-li-7pUHeP1GRC4-unsplash.jpg"; path = "../../../../Downloads/zetong-li-7pUHeP1GRC4-unsplash.jpg"; sourceTree = "<group>"; };
+		305B6634231E002100EC3D11 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../../Downloads/AppIcon.appiconset; sourceTree = "<group>"; };
 		30B4857C2317412C00C7AA0B /* Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B4857F2317412C00C7AA0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B485812317412C00C7AA0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		30B485862317412D00C7AA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B485892317412D00C7AA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30B4858B2317412D00C7AA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B4859223174F8700C7AA0B /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		30B4857E2317412C00C7AA0B /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
+				305B6630231DF74A00EC3D11 /* zetong-li-7pUHeP1GRC4-unsplash.jpg */,
 				30B4857F2317412C00C7AA0B /* AppDelegate.swift */,
 				30B485812317412C00C7AA0B /* ViewController.swift */,
 				30B485832317412C00C7AA0B /* Main.storyboard */,
 				30B485862317412D00C7AA0B /* Assets.xcassets */,
+				305B6634231E002100EC3D11 /* AppIcon.appiconset */,
 				30B485882317412D00C7AA0B /* LaunchScreen.storyboard */,
 				30B4858B2317412D00C7AA0B /* Info.plist */,
+				30B4859223174F8700C7AA0B /* Stopwatch.swift */,
 			);
 			path = Stopwatch;
 			sourceTree = "<group>";
@@ -122,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				305B6631231DF74B00EC3D11 /* zetong-li-7pUHeP1GRC4-unsplash.jpg in Resources */,
 				30B48591231741A900C7AA0B /* Main.storyboard in Resources */,
 				30B4858A2317412D00C7AA0B /* LaunchScreen.storyboard in Resources */,
+				305B6635231E002200EC3D11 /* AppIcon.appiconset in Resources */,
 				30B485872317412D00C7AA0B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30B485822317412C00C7AA0B /* ViewController.swift in Sources */,
+				30B4859323174F8700C7AA0B /* Stopwatch.swift in Sources */,
 				30B485802317412C00C7AA0B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
